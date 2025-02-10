@@ -8,7 +8,7 @@
  * @author Paulo Padilla Domingues
  * @author Laura Ramallo Pérez
  * @since Feb 09 2025
- * @desc Incorrect Guidestyle
+ * @desc Strings
  */
 
 'use strict';

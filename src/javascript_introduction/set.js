@@ -8,10 +8,18 @@
  * @author Paulo Padilla Domingues
  * @author Laura Ramallo Pérez
  * @since Feb 09 2025
- * @desc Number wrapper
+ * @desc Set
  */
 
 'use strict';
 
-let pi = 3.1415;
-console.log(pi.toFixed(2)); // '3.14'
+const mySet = new Set();
+mySet.add(1);
+mySet.add(2);
+mySet.add(1); // Duplicates are ignored
+
+console.log(mySet.size); // 2
+
+for (const value of mySet) {
+  console.log(value); // 1, 2
+}
