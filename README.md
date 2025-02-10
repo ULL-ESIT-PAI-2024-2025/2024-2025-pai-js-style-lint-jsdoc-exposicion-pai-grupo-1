@@ -12,13 +12,7 @@
 
 ### Introduction
 
-This repository contains materials related to best practices in JavaScript, including code style, documentation with JSDoc, and static analysis with ESLint.
-
-Upon receiving the link to this repository, clone it and use it to host all necessary materials for your work: slides, code, etc. Once completed, upload the link to the public repository to the class assignment for evaluation.
-
-Additionally, post the repository link in the PAI forum before the presentation date so that all students can access the material during the exposition session.
-
-Remove any directories that are not necessary for your work.
+This repository contains materials related to best practices in JavaScript, including code style, documentation with JSDoc, and static analysis with ESLint. Additionally, it covers essential concepts such as the `package.json` file, the structure and purpose of README files, and fundamental JavaScript topics like operators and variables.
 
 ---
 
@@ -58,12 +52,12 @@ The [Google Style Guide](https://google.github.io/styleguide/jsguide.html) provi
 ```js
 /**
  * Adds two numbers.
- * @param {number} a - First number.
- * @param {number} b - Second number.
+ * @param {number} numer1 - First number.
+ * @param {number} number2 - Second number.
  * @returns {number} Sum of the numbers.
  */
-function add(a, b) {
-  return a + b;
+function add(number1, number2) {
+  return number1 + number2;
 }
 ```
 ### ESlint
