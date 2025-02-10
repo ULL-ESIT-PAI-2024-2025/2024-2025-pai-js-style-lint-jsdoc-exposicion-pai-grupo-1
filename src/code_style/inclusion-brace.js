@@ -10,17 +10,11 @@
  * @since Feb 09 2025
  */
 
-const username = 'John';
+if (number > 0)
+  console.log('number is positive');
+  console.log('This line executes regardless of the condition');
 
-const age = 30;
-const city = 'New York';
-
-function greetUser() {
-  console.log(`Hello ${username}, you are ${age} years old`);
+if (number > 0) {
+  console.log('number is positive');
+  console.log('This line executes only when number > 0');
 }
-
-if (age > 18) {
-  console.log('Adult');
-}
-
-const numbers = [1, 2, 3, 4, 5];

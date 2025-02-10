@@ -10,17 +10,12 @@
  * @since Feb 09 2025
  */
 
-const username = 'John';
+const add = (num1, num2) => {
+  num1 + num2;
+};
 
-const age = 30;
-const city = 'New York';
+const addNumbers = (num1, num2) => {
+  return num1 + num2;
+};
 
-function greetUser() {
-  console.log(`Hello ${username}, you are ${age} years old`);
-}
-
-if (age > 18) {
-  console.log('Adult');
-}
-
-const numbers = [1, 2, 3, 4, 5];
+const addNumbers = (num1, num2) => num1 + num2;
