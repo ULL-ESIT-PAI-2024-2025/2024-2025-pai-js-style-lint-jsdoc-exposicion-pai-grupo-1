@@ -62,4 +62,4 @@ function add(number1, number2) {
 ```
 ### ESlint
 
-[ESLint](https://lenguajejs.com/javascript/calidad-de-codigo/eslint/) es una herramienta de análisis estático que ayuda a detectar y corregir problemas en el código JavaScript.
+[ESLint](https://lenguajejs.com/javascript/calidad-de-codigo/eslint/) is a static analysis tool that helps detect and fix issues in JavaScript code.
