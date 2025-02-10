@@ -8,10 +8,16 @@
  * @author Paulo Padilla Domingues
  * @author Laura Ramallo Pérez
  * @since Feb 09 2025
- * @desc Number wrapper
+ * @desc Map
  */
 
 'use strict';
 
-let pi = 3.1415;
-console.log(pi.toFixed(2)); // '3.14'
+const myMap = new Map();
+myMap.set('first key', 1)
+    .set(1, 'one')
+    .set(true, 'bool');
+
+console.log(myMap.get(1)); // 'one'
+console.log(myMap.get('first key')); // 1
+console.log(myMap.size); // 3
