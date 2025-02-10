@@ -1,3 +1,16 @@
+/**
+ * Universidad de La Laguna
+ * Escuela Superior de Ingeniería y Tecnología
+ * Grado en Ingeniería Informática
+ * Programación de Aplicaciones Interactivas
+ *
+ * @author Carolina Acosta Acosta
+ * @author Paulo Padilla Domingues
+ * @author Laura Ramallo Pérez
+ * @since Feb 09 2025
+ * @desc Some incorrect guidestyle
+ */
+
 var username="John" // 1. Missing space around `=`, 2. Missing semicolon, 3. Using var, 4. Double quotes
 
 const age=30; const city='New York'; // 5. Multiple variable declarations in the same statement, 1. Missing space around `=`
